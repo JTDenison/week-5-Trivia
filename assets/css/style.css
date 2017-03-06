@@ -1,47 +1,64 @@
 body {
-	height: 100%;
-	background: url('https://images8.alphacoders.com/512/thumb-1920-512776.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    height: 100%;
+    background: url('https://images8.alphacoders.com/512/thumb-1920-512776.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 .page-header {
-	text-align: center;
-	border-bottom: none;
+    text-align: center;
+    border-bottom: none;
 }
 
-#timer, #result, #question, #answers {
-	text-align: center;
-	height: 40px;
-	color: white;
+.timeDiv {
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#timer,
+#result,
+#question,
+#answers {
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
 }
 
 #timer {
-	background-color: dimgrey;
-	opacity: .7;
-	border-radius: 7px;
-	font-weight: bolder;
+    background-color: dimgrey;
+    opacity: .7;
+    border-radius: 7px;
+    font-weight: bolder;
 }
 
+
+/* #question, #answers{
+	text-align: center;
+	height: 40px;
+	color: white;
+}*/
+
 button {
-	height: 30px;
-	width: 500px;
+    height: 30px;
+    width: 500px;
 }
 
 .btn {
-	margin-bottom: 20px;
-	background-color: dimgrey;
-	opacity: .7;
-	font-weight: bolder;
+    margin-bottom: 20px;
+    background-color: dimgrey;
+    opacity: .7;
+    font-weight: bolder;
 }
 
-#start, #reset {
-	height: 100px;
-	width: 300px;
+#start,
+#reset {
+    height: 100px;
+    width: 300px;
 }
+
+
+/*stupid fucking piece of shit not readable fucking shit */
 
 .displayNone {
-	display: none;
+    display: none;
 }
